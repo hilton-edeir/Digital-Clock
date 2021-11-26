@@ -1,2 +1,2 @@
 # Digital Clock
- A website to display real time clock
+ A simple website to display time
