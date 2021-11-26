@@ -1,6 +1,7 @@
 
 setInterval(()=>{
     const time = document.querySelector("#time")
+    let today = document.querySelector("#date")
 
     let date = new Date()
     let hours = date.getHours()
@@ -18,4 +19,7 @@ setInterval(()=>{
     }
     
     time.textContent = hours + ":" + minutes + ":" + seconds
+    today.textContent =  date
 });
+
+

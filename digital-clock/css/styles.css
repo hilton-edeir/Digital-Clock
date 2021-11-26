@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -14,7 +14,7 @@ body {
 
 .custom-wrapper {
     padding: 30px;
-    width: 320px;
+    width: 20%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 8px 24px;
     border-radius: 10px;
     text-align: center;
@@ -22,5 +22,15 @@ body {
 
 .display{
     font-size: 1.8rem;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+#time {
+    font-weight: 100;
+}
+
+#date {
+    padding-top: 1.5em;
+    font-size: x-small;
+    font-weight: bold;
 }
