@@ -23,5 +23,5 @@ setInterval(()=>{
         seconds = "0"  + seconds
     }
     
-    time.textContent = hours + ":" + minutes + ":" + seconds + prepand
+    time.textContent = hours + ":" + minutes + ":" + seconds + " " + prepand
 });
